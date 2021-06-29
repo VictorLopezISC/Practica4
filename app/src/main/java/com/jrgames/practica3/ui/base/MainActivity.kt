@@ -3,6 +3,7 @@ package com.jrgames.practica3.ui.base
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -73,7 +74,7 @@ class MainActivity : AppCompatActivity(),  NavigationView.OnNavigationItemSelect
                 null
             )!!, FragmentHome.TAG, false
         )
-
+ Log.e("into","hola mundo");
     }
 
     /**
