@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Recyrso para agregar mas elementos a la lista de nuestro DrawerLayout -->
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home_title"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_radio_button"
+            android:title="@string/nav_radio"
+            android:icon="@drawable/ic_radio"/>
+
+        <item
+            android:id="@+id/nav_recycler"
+            android:title="RecyclerView"
+            android:icon="@drawable/ic_radio"/>
+
+        <item
+            android:id="@+id/nav_maps"
+            android:title="Mapas"
+            android:icon="@drawable/ic_radio"/>
+
+        <item
+            android:id="@+id/nav_room"
+            android:title="Room"
+            android:icon="@drawable/ic_radio"/>
+        <item
+            android:id="@+id/nav_configuration"
+            android:title="Configuracion de avatar"
+            android:icon="@drawable/ic_radio"/>
+
+        <item
+            android:id="@+id/nav_sheet"
+            android:title="Datos del negocio"
+            android:icon="@drawable/ic_radio"/>
+
+        <item
+            android:id="@+id/nav_escaner"
+            android:title="Escaneo QR"
+            android:icon="@drawable/ic_radio"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z_shape_top_radius_corner"
+    android:paddingTop="@dimen/bottomPadding"
+    android:paddingStart="@dimen/bottomPadding"
+    android:paddingEnd="@dimen/bottomPadding">
+
+
+    <ImageView
+        android:id="@+id/imageqr"
+        android:layout_width="@dimen/widthPleca"
+        android:layout_height="@dimen/heightPleca"
+        android:layout_marginTop="@dimen/ivPlecaTop"
+        android:background="@color/grisPleca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvEscaner"
+        style="@style/tvBottomSheetStyle"
+        android:layout_width="199dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="@dimen/tvCompleta"
+        android:layout_marginTop="@dimen/tvAncho"
+        android:text="@string/codigoQr"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageqr" />
+
+
+
+    <ImageView
+        android:id="@+id/escanerQR"
+        android:layout_width="333dp"
+        android:layout_height="349dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEscaner" />
+
+    <TextView
+        android:id="@+id/tvmensajeQR"
+        android:layout_width="357dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/mensajeQR"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escanerQR" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/greenBottom"
+        android:text="Cerrar"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvmensajeQR" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

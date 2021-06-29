@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Practica3</string>
+    <string name="circle_description">circle nav header</string>
+    <string name="nav_header_title">Mi Primer DrawerLayout</string>
+    <string name="my_name">victor lopez gamez</string>
+    <string name="nav_home_title">Home</string>
+    <string name="nav_radio">Radio Button</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="homeTitle">HOME</string>
+    <string name="recyclerTitle">Tus me gusta</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="showCamionetas">Mostrar Camionetas</string>
+    <string name="altaContactos">Alta de contactos</string>
+    <string name="name">Ingrese nombre</string>
+    <string name="paterno">Ingrese Apellido Paterno</string>
+    <string name="materno">Ingrese Apellido Materno</string>
+    <string name="phone">Ingrese teléfono</string>
+    <string name="guardar">Guardar</string>
+    <string name="gallery">galeria</string>
+    <string name="camara">camara</string>
+    <string name="configDescription">Para cambiar la imagen de tu avatar</string>
+    <string name="configTitle">Uso de camara y galeria</string>
+    <string name="recortaTuImagen">Recortar tu imagen</string>
+    <string name="listo">Listo</string>
+    <string name="bottomComplete">Complete los datos de tu negocio</string>
+    <string name="tvOfrece">¿Que ofrece?</string>
+    <string name="Productos">Producto</string>
+    <string name="servicios">servicios</string>
+    <string name="categoria">categoria</string>
+    <string name="eligeDia">Elige los dias y horarios de atencion</string>
+    <string name="productos">Productos</string>
+    <string name="zmrStartBottom">inicializar</string>
+    <string name="codigoQr">Escanea el código QR</string>
+    <string name="mensajeQR">Pide a tu cliente que escane el siguiente código QR para poder crear su cuenta</string>
+
+
+</resources>

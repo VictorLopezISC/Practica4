@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:id="@+id/clPrincipal">
+
+
+    <ImageView
+        android:id="@+id/ivSpotify"
+        android:layout_width="@dimen/ivSpotify"
+        android:layout_height="@dimen/ivSpotify"
+        android:layout_marginTop="@dimen/ivTopSpotify"
+        android:layout_marginBottom="@dimen/ivTopSpotify"
+        android:layout_marginStart="@dimen/ivStartSpotify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       />
+
+    <TextView
+        android:id="@+id/tvCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tvItemStart"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tvItemSize"
+        app:layout_constraintStart_toEndOf="@+id/ivSpotify"
+        app:layout_constraintTop_toTopOf="@+id/ivSpotify"
+        tools:text="Nombre de la Cancion" />
+
+    <ImageView
+        android:id="@+id/ivDownload"
+        android:layout_width="@dimen/ivItem"
+        android:layout_height="@dimen/ivItem"
+        android:src="@drawable/ic_download"
+        android:layout_marginStart="@dimen/ivStartDownload"
+        app:layout_constraintStart_toEndOf="@+id/ivSpotify"
+        app:layout_constraintTop_toBottomOf="@+id/tvCancion" />
+
+    <TextView
+        android:id="@+id/tvInterprete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tvStartInterprete"
+        android:textColor="@color/gris"
+        android:textSize="@dimen/tvInterpreteSize"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDownload"
+        app:layout_constraintStart_toEndOf="@+id/ivDownload"
+        app:layout_constraintTop_toTopOf="@+id/ivDownload"
+        tools:text="Blink 182" />
+
+    <ImageView
+        android:id="@+id/ivHeart"
+        android:layout_width="@dimen/ivHeart"
+        android:layout_height="@dimen/ivHeart"
+        android:layout_marginEnd="@dimen/ivHeart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_green_heart"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
